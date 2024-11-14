@@ -1,0 +1,13 @@
+This app asks the user multiple-choice questions and keeps track of the score. The game provides feedback on whether the user’s answer is correct and shows the final score at the end.
+
+python
+Copy code
+How the Code Works
+Define Questions and Answers: quiz_questions holds a list of dictionaries, each containing a question, possible options, and the correct answer.
+Run Quiz: run_quiz() function loops through each question, displays it with options, and collects the user’s answer.
+Check Answers: Compares the user’s answer with the correct answer, increments the score if correct, and provides feedback.
+Display Final Score: At the end of the quiz, it shows the user’s total score.
+Usage
+Run this code in a Python environment.
+Answer the questions by typing A, B, C, or D.
+Get feedback for each question and see your final score when the quiz ends.
